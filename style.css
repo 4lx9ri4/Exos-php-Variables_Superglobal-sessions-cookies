@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #3E171A;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0px auto 300px auto;
+  width: 950px;
+  height: 900px;
+  }
+
+div, form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  height: 200px;
+  margin: 15px;
+  padding: 1%;
+  border: 2px solid #B09270;
+  border-radius: 2%;
+  box-shadow: 2px 2px 5px #FBC974;
+}
+
+p, legend{
+  font-family: sans-serif;
+  color: #C3592F;
+  text-shadow: 1px 1px #000;
+}
+
+button{
+  height: 70px;
+  border-radius: 100%;
+  font-weight: bold;
+  background-color: #C3592F;
+  border: 1px solid #B09270;
+  box-shadow: 2px 2px 10px #FBC974;
+  color: #3E171A;
+}
